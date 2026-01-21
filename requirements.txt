@@ -1,0 +1,14 @@
+# Web 框架核心
+fastapi>=0.100.0
+
+# ASGI 服务器 (用于启动服务)
+uvicorn>=0.20.0
+
+# Playwright 浏览器自动化库
+playwright>=1.35.0
+
+# 处理文件上传 (FastAPI 依赖这个库来处理 UploadFile)
+python-multipart
+
+# HTTP 客户端 (用于你的测试脚本 test_api.py)
+requests
